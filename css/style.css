@@ -1,0 +1,77 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F3F3F3;
+}
+
+#riganav {
+    border-bottom: 3px solid #00008b;
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#agility {
+    font-size: 5vh;
+    color: #00008b;
+}
+
+#agility > p {
+    font-size: 3vh;
+    color:black;
+}
+
+#navbar {
+    display: flex;
+}
+
+.link {
+    margin: 2vh;
+    font-weight: bold;
+    color: darkblue;
+}
+
+.link:hover {
+
+    border-top: 1vh solid red;
+    color:red;
+}
+
+#rigaheader {
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+    width: 100%;
+    background-color: #0000ff;
+}
+
+#header {
+    height: 55vh;
+    display: flex;
+    align-items: center;
+    background-color: #0000ff;
+    width: 100%;
+    justify-content: center;
+    font-size: 10vh;
+}
+
+#testo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    font-size: 5vh;
+}
+
+#rigaquad {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.quadrati {
+    margin-left: 10vh;
+}
